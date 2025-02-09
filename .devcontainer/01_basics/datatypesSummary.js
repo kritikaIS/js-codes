@@ -9,7 +9,7 @@ const outside_temp=null;    //object
 let user_email; //undefined
 const id=Symbol('123');//datatype=symbol
 const another_id=Symbol('123');
-console.log(id==another_id);
+//console.log(id==another_id);
 const bigNumber=123456789012341234455n
 //7 types: String ,number, boolean, null, undefined, BigInt, Symbol
 
@@ -26,7 +26,11 @@ let obj={
 const fun=function(){
     console.log("hello world") //datatype => function
 }
-fun();
-console.log(typeof(fun)); //function
-console.log(typeof(heros));   //object
-console.log(typeof(obj));   //object
+//fun();
+// console.log(typeof(fun)); //function
+// console.log(typeof(heros));   //object
+// console.log(typeof(obj));   //object
+
+
+/*******************MEMORY********************/
+//Stack (primitive datatypes) and Heap (arrays,object,function);
